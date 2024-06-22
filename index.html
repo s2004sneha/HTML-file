@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstiOLX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">     
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="This is logo" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <img src="cart.png" alt="Image of Cart" width="30px" height="30px">
+        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Welcome to InstiOLX</h1>
+            <p>Discover unbeatable deals and a seamless shopping experience on our e-commerce platform.<br> Shop with confidence and enjoy fast, reliable delivery right to your doorstep.</p>
+            <a href="#" class="btn">Log In &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="back.jpg" alt="background image">
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVwGVsuaL7RGKo6A_Sqq83s5_6XYFMhHsjug&s">
+        </div>
+        <div class="col-3">
+            <img src="https://5.imimg.com/data5/WS/NI/FV/SELLER-11710265/mad-maxx-bicycles-avengers-single-kids-cycle-500x500.jpg">
+        </div>
+        <div class="col-3">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/7/YX/MH/UK/153492086/pulsar-150cc-twin-disk-500x500.png">
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <h2 class="title">Feature Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="https://cpimg.tistatic.com/07673503/b/4/Toyota-Innova-Crysta.jpg">
+            <h4>Toyota Ertiga</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$5000.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://tiimg.tistatic.com/fp/1/007/862/most-advanced-modern-premium-lg-7-kg-front-fully-automatic-washing-machine-255.jpg">
+            <h4>Washing Machine</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$120.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/MI/KE/UL/19250422/whirlpool-1-0-ton-3-star-inverter-split-ac-500x500.jpg">
+            <h4>AC</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$240.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/HZ/XR/AC/8962391/household-vacuum-cleaner-500x500.jpg">
+            <h4>Vaccum Cleaner</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$120.0</p>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------- -->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="https://cpimg.tistatic.com/07673503/b/4/Toyota-Innova-Crysta.jpg">
+            <h4>Toyota Ertiga</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$5000.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://tiimg.tistatic.com/fp/1/007/862/most-advanced-modern-premium-lg-7-kg-front-fully-automatic-washing-machine-255.jpg">
+            <h4>Washing Machine</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$120.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/MI/KE/UL/19250422/whirlpool-1-0-ton-3-star-inverter-split-ac-500x500.jpg">
+            <h4>AC</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$240.0</p>
+        </div>
+
+        <div class="col-4">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/HZ/XR/AC/8962391/household-vacuum-cleaner-500x500.jpg">
+            <h4>Vaccum Cleaner</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$120.0</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="https://cpimg.tistatic.com/07673503/b/4/Toyota-Innova-Crysta.jpg">
+                <h4>Toyota Ertiga</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$5000.0</p>
+            </div>
+    
+            <div class="col-4">
+                <img src="https://tiimg.tistatic.com/fp/1/007/862/most-advanced-modern-premium-lg-7-kg-front-fully-automatic-washing-machine-255.jpg">
+                <h4>Washing Machine</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.0</p>
+            </div>
+    
+            <div class="col-4">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/MI/KE/UL/19250422/whirlpool-1-0-ton-3-star-inverter-split-ac-500x500.jpg">
+                <h4>AC</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$240.0</p>
+            </div>
+    
+            <div class="col-4">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/HZ/XR/AC/8962391/household-vacuum-cleaner-500x500.jpg">
+                <h4>Vaccum Cleaner</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$120.0</p>
+            </div>
+        <!-- ----------------------------- -->
+</div>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="iphone.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on IPHONE</p>
+                <h1>
+                    IPHONE
+                </h1>
+                <small>
+                    Superstrong materials and water resistance make iPhone incredibly durable. And automatic iOS updates deliver new features and security enhancements that keep your iPhone.
+                </small>
+                <br>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Your App</h3>
+                <p>Download App For Android and Ios Mobile phone</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="" alt="">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Products Accessibke to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+            </ul>
+    </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+</div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px"){
+            MenuItems.style.maxHeight=="200px";
+        }
+        else{
+            MenuItems.style.maxHeight=="0px";
+        }
+    }
+</script>
+</body>
+</html>
